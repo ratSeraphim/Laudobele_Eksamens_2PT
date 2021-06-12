@@ -24,6 +24,6 @@ atbildēts nepareizi.
 - [ ] Nodrošināti rezultāti testa beigās
 ### Testēšanas dokumenta uzdevumi
 - [ ] Izveidots apraksts
-- [ ] Izveidots prasību saraksts
+- [x] Izveidots prasību saraksts
 - [ ] Pierakstīti 20 testpiemēri
 - [ ] Veikta testēšana
