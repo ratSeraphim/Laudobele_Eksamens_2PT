@@ -6,7 +6,7 @@ public class Tests {
 
 	public static void main(String[] args) {
 		int x;
-		 do {  String[] options = {"Pildīt testu", "Iziet no programmas"};
+		/* do { */  String[] options = {"Pildīt testu", "Iziet no programmas"};
 	      
 	        x = JOptionPane.showOptionDialog(null, "Veic izvēli!",
 	                null,
@@ -14,12 +14,7 @@ public class Tests {
 	     switch(x) {
 	     case 0: System.out.println("Vēl nav izveidota funkcionalitāte...");
 	     new TestaJaut1();
-			try {
-				Thread.sleep(1000);
-			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
+			
 	     break;
 	  
 	     case 1: JOptionPane.showMessageDialog(null,"Programma tiek apturēta","Brīdinājums", JOptionPane.WARNING_MESSAGE); break;
@@ -27,8 +22,7 @@ public class Tests {
 	     default: JOptionPane.showMessageDialog(null,"Programma tiek apturēta","Brīdinājums", JOptionPane.WARNING_MESSAGE); 
 	     	System.exit(0);
 	    }
-		 }while(x != 1);
-		
+		/* }while(x != 1); */		
 	}
 
 }

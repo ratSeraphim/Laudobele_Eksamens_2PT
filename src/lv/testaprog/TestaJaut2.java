@@ -9,27 +9,27 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 
-public class TestaJaut1 {
+public class TestaJaut2 {
 
 	double parAtb=0; 
 	boolean nepareiziAtbildets = true;
 	
-	TestaJaut1(){
-		JFrame frame= new JFrame("1. Jautājums");
+	TestaJaut2(){
+		JFrame frame= new JFrame("2. Jautājums");
 		
 		//Jautājums
 		JLabel jaut;  
-	    jaut=new JLabel("1. Kad izmanto ciklu ar skaitītāju?");  
-	    jaut.setBounds(10, 50, 300, 30);  
+	    jaut=new JLabel("2. Atlasi tos variantus, kurus var izmantot cikla ar skaitītāja sākumam");  
+	    jaut.setBounds(10, 50, 500, 30);  
 	    
 	    //Atbildes
-		JCheckBox ch_1atb = new JCheckBox("Kad ir zināms cik reizes vajag veikt darbību");
+		JCheckBox ch_1atb = new JCheckBox("int i = 0");
 		ch_1atb.setBounds(50, 100, 300, 50);
-		JCheckBox ch_2atb = new JCheckBox("Kad nav zināms cik reizes vajag veikt darbību");
+		JCheckBox ch_2atb = new JCheckBox("int i = -3");
 		ch_2atb.setBounds(50, 150, 300, 50);
-		JCheckBox ch_3atb = new JCheckBox("Kad vajag veikt vienreizēju darbību");
+		JCheckBox ch_3atb = new JCheckBox("int i = 4.5");
 		ch_3atb.setBounds(50, 200, 300, 50);
-		JCheckBox ch_4atb = new JCheckBox("Kad nepieciešams veikt darbību vairākas reizes");
+		JCheckBox ch_4atb = new JCheckBox("int i = k");
 		ch_4atb.setBounds(50, 250, 300, 50);
 		
 		//Poga
@@ -55,14 +55,14 @@ public class TestaJaut1 {
             		parAtb = parAtb+0.5;
             	}
             	if(ch_2atb.isSelected()) {
-            		parAtb = parAtb-0.5;
+            		parAtb = parAtb+0.5;
             	}
             	if(ch_3atb.isSelected()) {
             		parAtb = parAtb-0.5;
             	}
       
             	if(ch_4atb.isSelected()) {
-            		parAtb = parAtb+0.5;
+            		parAtb = parAtb-0.5;
             	}
             	
             	if(parAtb == 1) {
@@ -72,8 +72,7 @@ public class TestaJaut1 {
             	}
             	
             	frame.dispose();
-            	new TestaJaut2();
-            	
+            	new TestaJaut3();
             }
         });
         

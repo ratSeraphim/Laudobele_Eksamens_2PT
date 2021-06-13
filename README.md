@@ -19,9 +19,9 @@ atbildēts nepareizi.
 - [ ] Katram jautājumam izdomāti atbilžu varianti
 - [x] Izvēlne (pildīt testu, beigt programmu, redzēt iepriekšējos rezultātus(?) )
 - [x] Programmas apturēšana
-- [ ] Nodrošināti jautājumi, to uzrašanās uz ekrāna
-- [ ] Nodrošinātas pareizās, nepareizās atbildes izvēles
-- [ ] Nodrošināts novērtējums par atbildes izvēli
+- [x] Nodrošināti jautājumi, to uzrašanās uz ekrāna
+- [x] Nodrošinātas pareizās, nepareizās atbildes izvēles
+- [x] Nodrošināts novērtējums par atbildes izvēli
 - [ ] Nodrošināti rezultāti testa beigās
 ### Testēšanas dokumenta uzdevumi
 - [ ] Izveidots apraksts
