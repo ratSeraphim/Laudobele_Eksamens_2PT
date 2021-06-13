@@ -12,7 +12,14 @@ public class Tests {
 	                null,
 	                JOptionPane.DEFAULT_OPTION, JOptionPane.INFORMATION_MESSAGE, null, options, options[0]);
 	     switch(x) {
-	     case 0: System.out.println("Vēl nav izveidota funkcionalitāte...");//Tests();
+	     case 0: System.out.println("Vēl nav izveidota funkcionalitāte...");
+	     new TestaJaut1();
+			try {
+				Thread.sleep(1000);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 	     break;
 	  
 	     case 1: JOptionPane.showMessageDialog(null,"Programma tiek apturēta","Brīdinājums", JOptionPane.WARNING_MESSAGE); break;

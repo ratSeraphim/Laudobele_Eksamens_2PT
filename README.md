@@ -19,7 +19,6 @@ atbildēts nepareizi.
 - [ ] Katram jautājumam izdomāti atbilžu varianti
 - [x] Izvēlne (pildīt testu, beigt programmu, redzēt iepriekšējos rezultātus(?) )
 - [x] Programmas apturēšana
-- [ ] Iepriekšējo rezultātu apskate (?)
 - [ ] Nodrošināti jautājumi, to uzrašanās uz ekrāna
 - [ ] Nodrošinātas pareizās, nepareizās atbildes izvēles
 - [ ] Nodrošināts novērtējums par atbildes izvēli
