@@ -25,7 +25,7 @@ atbildēts nepareizi.
 - [x] Nodrošināts novērtējums par atbildes izvēli
 - [x] Nodrošināta pareizo atbilžu skaitīšana
 - [x] Nodrošināta nepareizi atbildēto jautājumu izvade testa beigās
-- [ ] Veikta koda komentēšana
+- [x] Veikta koda komentēšana
 ### Testēšanas dokumenta uzdevumi
 - [x] Izveidots apraksts
 - [x] Izveidots prasību saraksts

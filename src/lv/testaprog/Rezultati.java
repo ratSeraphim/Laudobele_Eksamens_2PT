@@ -11,14 +11,18 @@ import javax.swing.JTextArea;
 public class Rezultati {
 
 	Rezultati(){
+		//Izmanto boolean masīva vērtības lai iztulkotu nepareizi atbildētos jautājumus teksta masīvā 
 		Tests.jautVerti();
-		
+		//Izveidots logs ar nosaukumu "1. Jautājums"
 		final JFrame frame= new JFrame("Rezultāti");
 		
+		//Izraksta rezultātu
 		final JPanel panel = new JPanel();
 		 JTextArea textArea = new JTextArea(
 	                "Tu pareizi atbildēji uz " +Tests.getParAtbSk()+" jautājumiem!\n" +
 	                "Nepareizi atbildēji uz sekojošajiem jautājumiem: \n"+
+	                		/*Izraksta visas teksta masīva vērtības, kurās ievietoti jautājumi,
+	                		 *  uz kuriem atbildēts nepareizi*/
 	                Tests.nepJaut(0)+
 	                Tests.nepJaut(1)+
 	                Tests.nepJaut(2)+
@@ -38,10 +42,11 @@ public class Rezultati {
 	        textArea.setOpaque(false);
 	        textArea.setEditable(false);
 	        
-	        //poga
+	        //Poga
 	        JButton poga = new JButton("OK");
 	        poga.setBounds(150, 300, 100, 30);
 	        
+	      //Pievienojam izveidotās sadaļas logam
 	        panel.add(textArea);
 	        frame.add(panel);
 	        panel.add(poga);
@@ -49,10 +54,12 @@ public class Rezultati {
 	        frame.setVisible(true);
 	        frame.setSize(500,500); 
 	        
+	        //Kad nospiesta poga "OK",
 	        poga.addActionListener(new ActionListener() {
 	            public void actionPerformed(ActionEvent e) {
 	            	
-	            	frame.dispose();
+	            	//Izbeidz programmu
+	            	System.exit(0);
 	            	
 	            }
 	        });
