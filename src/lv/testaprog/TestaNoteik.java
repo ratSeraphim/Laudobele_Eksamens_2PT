@@ -11,7 +11,7 @@ import javax.swing.JTextArea;
 public class TestaNoteik {
 
 	TestaNoteik(){
-		JFrame frame= new JFrame("Testa noteikumi");
+		final JFrame frame= new JFrame("Testa noteikumi");
 		
 		final JPanel panel = new JPanel();
 			//teksts

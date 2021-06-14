@@ -14,7 +14,7 @@ public class TestaJaut8 {
 	boolean nepareiziAtbildets = true;
 	
 	TestaJaut8(){
-		JFrame frame= new JFrame("8. Jautājums");
+		final JFrame frame= new JFrame("8. Jautājums");
 		
 		//Jautājums
 		JLabel jaut;  
@@ -22,14 +22,14 @@ public class TestaJaut8 {
 	    jaut.setBounds(10, 50, 350, 30);  
 	    
 	    //Atbildes
-		JCheckBox ch_1atb = new JCheckBox("Skaitītāju jāsauc ‘i’, jo tāds nosaukums iebūvēts javā");
-		ch_1atb.setBounds(50, 100, 300, 50);
-		JCheckBox ch_2atb = new JCheckBox("Skaitītāju var saukt kā vēlas, ‘i’ ir tikai pieņemtais nosaukums");
-		ch_2atb.setBounds(50, 150, 300, 50);
-		JCheckBox ch_3atb = new JCheckBox("Lai programma darbotos bez kļūdām, skaitītājam jābūt veselam skaitlim");
-		ch_3atb.setBounds(50, 200, 300, 50);
-		JCheckBox ch_4atb = new JCheckBox("Skaitītājs var būt jebkurš datu tips un programma darbosies bez kļūdām");
-		ch_4atb.setBounds(50, 250, 300, 50);
+		final JCheckBox ch_1atb = new JCheckBox("a) Skaitītāju jāsauc ‘i’, jo tāds nosaukums iebūvēts javā");
+		ch_1atb.setBounds(50, 100, 500, 50);
+		final JCheckBox ch_2atb = new JCheckBox("b) Skaitītāju var saukt kā vēlas, ‘i’ ir tikai pieņemtais nosaukums");
+		ch_2atb.setBounds(50, 150, 500, 50);
+		final JCheckBox ch_3atb = new JCheckBox("c) Lai programma darbotos bez kļūdām, skaitītājam jābūt veselam skaitlim");
+		ch_3atb.setBounds(50, 200, 500, 50);
+		final JCheckBox ch_4atb = new JCheckBox("d) Skaitītājs var būt jebkurš datu tips un programma darbosies bez kļūdām");
+		ch_4atb.setBounds(50, 250, 500, 50);
 		
 		//Poga
 		JButton poga = new JButton("Atbildēt");
@@ -43,7 +43,7 @@ public class TestaJaut8 {
 		frame.add(ch_2atb);  
 		frame.add(ch_3atb);  
 		frame.add(ch_4atb);  
-        frame.setSize(500,500);  
+        frame.setSize(600,500);  
         frame.setLayout(null);  
         frame.setVisible(true);
         

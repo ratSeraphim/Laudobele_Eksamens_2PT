@@ -18,7 +18,7 @@ public class TestaJaut2{
 	TestaJaut2(){
 		
 		parAtb = 0;
-		JFrame frame= new JFrame("2. Jautājums");
+		final JFrame frame= new JFrame("2. Jautājums");
 		
 		//Jautājums
 		JLabel jaut;  
@@ -26,13 +26,13 @@ public class TestaJaut2{
 	    jaut.setBounds(10, 50, 500, 30);  
 	    
 	    //Atbildes
-		JCheckBox ch_1atb = new JCheckBox("int i = 0");
+		final JCheckBox ch_1atb = new JCheckBox("a) int i = 0");
 		ch_1atb.setBounds(50, 100, 300, 50);
-		JCheckBox ch_2atb = new JCheckBox("int i = -3");
+		final JCheckBox ch_2atb = new JCheckBox("b) int i = -3");
 		ch_2atb.setBounds(50, 150, 300, 50);
-		JCheckBox ch_3atb = new JCheckBox("int i = 4.5");
+		final JCheckBox ch_3atb = new JCheckBox("c) int i = 4.5");
 		ch_3atb.setBounds(50, 200, 300, 50);
-		JCheckBox ch_4atb = new JCheckBox("int i = k");
+		final JCheckBox ch_4atb = new JCheckBox("d) int i = k");
 		ch_4atb.setBounds(50, 250, 300, 50);
 		
 		//Poga
@@ -47,7 +47,7 @@ public class TestaJaut2{
 		frame.add(ch_2atb);  
 		frame.add(ch_3atb);  
 		frame.add(ch_4atb);  
-        frame.setSize(500,500);  
+        frame.setSize(600,500);  
         frame.setLayout(null);  
         frame.setVisible(true);
         

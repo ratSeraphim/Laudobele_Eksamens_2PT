@@ -1,7 +1,6 @@
 package lv.testaprog;
 
 import javax.swing.JOptionPane;
-import java.util.Arrays;
 
 public class Tests {
 	

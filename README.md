@@ -21,12 +21,13 @@ atbildēts nepareizi.
 - [x] Programmas apturēšana
 - [x] Nodrošināti jautājumi, to uzrašanās uz ekrāna
 - [x] Nodrošinātas pareizās, nepareizās atbildes izvēles
-- [ ] Tiek korekti izvadīti visi 10 jautājumi 
+- [x] Tiek korekti izvadīti visi 10 jautājumi 
 - [x] Nodrošināts novērtējums par atbildes izvēli
 - [x] Nodrošināta pareizo atbilžu skaitīšana
 - [x] Nodrošināta nepareizi atbildēto jautājumu izvade testa beigās
+- [ ] Veikta koda komentēšana
 ### Testēšanas dokumenta uzdevumi
-- [ ] Izveidots apraksts
+- [x] Izveidots apraksts
 - [x] Izveidots prasību saraksts
-- [ ] Pierakstīti 20 testpiemēri
-- [ ] Veikta testēšana
+- [x] Pierakstīti 20 testpiemēri
+- [x] Veikta testēšana

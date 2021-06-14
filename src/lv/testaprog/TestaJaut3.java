@@ -16,7 +16,7 @@ public class TestaJaut3 {
 	
 	TestaJaut3(){
 		parAtb=0; 
-		JFrame frame= new JFrame("3. Jautājums");
+		final JFrame frame= new JFrame("3. Jautājums");
 		
 		//Jautājums
 		JLabel jaut;  
@@ -24,13 +24,13 @@ public class TestaJaut3 {
 	    jaut.setBounds(10, 50, 350, 30);  
 	    
 	    //Atbildes
-		JCheckBox ch_1atb = new JCheckBox("i = 5");
+		final JCheckBox ch_1atb = new JCheckBox("a) i = 5");
 		ch_1atb.setBounds(50, 100, 300, 50);
-		JCheckBox ch_2atb = new JCheckBox("i <= 5");
+		final JCheckBox ch_2atb = new JCheckBox("b) i <= 5");
 		ch_2atb.setBounds(50, 150, 300, 50);
-		JCheckBox ch_3atb = new JCheckBox("i < -5");
+		final JCheckBox ch_3atb = new JCheckBox("c) i < -5");
 		ch_3atb.setBounds(50, 200, 300, 50);
-		JCheckBox ch_4atb = new JCheckBox("i > 5");
+		final JCheckBox ch_4atb = new JCheckBox("d) i > 5");
 		ch_4atb.setBounds(50, 250, 300, 50);
 		
 		//Poga
@@ -45,7 +45,7 @@ public class TestaJaut3 {
 		frame.add(ch_2atb);  
 		frame.add(ch_3atb);  
 		frame.add(ch_4atb);  
-        frame.setSize(500,500);  
+        frame.setSize(600,500);  
         frame.setLayout(null);  
         frame.setVisible(true);
         
@@ -66,7 +66,7 @@ public class TestaJaut3 {
             		parAtb = parAtb+0.5;
             	}
             	
-            	if(parAtb == 1) {
+            	if(parAtb == 1.5) {
             		Tests.atbRezultats(true, 2);
             		JOptionPane.showMessageDialog(null, "Tava atbilde ir pareiza!", "Uzmanību", JOptionPane.INFORMATION_MESSAGE);
             		Tests.atbPareizi();

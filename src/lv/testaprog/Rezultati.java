@@ -13,11 +13,9 @@ public class Rezultati {
 	Rezultati(){
 		Tests.jautVerti();
 		
-		JFrame frame= new JFrame("Rezultāti");
+		final JFrame frame= new JFrame("Rezultāti");
 		
 		final JPanel panel = new JPanel();
-			//teksts
-		System.out.println("Es izrakstu: \n"+Tests.nepJaut(2));
 		 JTextArea textArea = new JTextArea(
 	                "Tu pareizi atbildēji uz " +Tests.getParAtbSk()+" jautājumiem!\n" +
 	                "Nepareizi atbildēji uz sekojošajiem jautājumiem: \n"+

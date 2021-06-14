@@ -15,7 +15,7 @@ public class TestaJaut10 {
 
 	
 	TestaJaut10(){
-		JFrame frame= new JFrame("10. Jautājums");
+		final JFrame frame= new JFrame("10. Jautājums");
 		
 		//Jautājums
 		JLabel jaut;  
@@ -23,14 +23,14 @@ public class TestaJaut10 {
 	    jaut.setBounds(10, 50, 350, 30);  
 	    
 	    //Atbildes
-		JCheckBox ch_1atb = new JCheckBox("Skaitītāja soļa darbība var būt tikai saskaitīšana vai atņemšana");
-		ch_1atb.setBounds(50, 100, 300, 50);
-		JCheckBox ch_2atb = new JCheckBox("Skaitītāja soļa darbībā nevar izmantot saīsinātus pierakstus");
-		ch_2atb.setBounds(50, 150, 300, 50);
-		JCheckBox ch_3atb = new JCheckBox("Nepareizi pierakstīts skaitītāja solis var izjaukt visa cikla darbību");
-		ch_3atb.setBounds(50, 200, 300, 50);
-		JCheckBox ch_4atb = new JCheckBox("Skaititāja solim var izmantot jebkuru matemātisko darbību");
-		ch_4atb.setBounds(50, 250, 300, 50);
+		final JCheckBox ch_1atb = new JCheckBox("a) Skaitītāja soļa darbība var būt tikai saskaitīšana vai atņemšana");
+		ch_1atb.setBounds(50, 100, 400, 50);
+		final JCheckBox ch_2atb = new JCheckBox("b) Skaitītāja soļa darbībā nevar izmantot saīsinātus pierakstus");
+		ch_2atb.setBounds(50, 150, 400, 50);
+		final JCheckBox ch_3atb = new JCheckBox("c) Nepareizi pierakstīts skaitītāja solis var izjaukt visa cikla darbību");
+		ch_3atb.setBounds(50, 200, 500, 50);
+		final JCheckBox ch_4atb = new JCheckBox("d) Skaititāja solim var izmantot jebkuru matemātisko darbību");
+		ch_4atb.setBounds(50, 250, 400, 50);
 		
 		//Poga
 		JButton poga = new JButton("Atbildēt");
@@ -44,7 +44,7 @@ public class TestaJaut10 {
 		frame.add(ch_2atb);  
 		frame.add(ch_3atb);  
 		frame.add(ch_4atb);  
-        frame.setSize(500,500);  
+        frame.setSize(600,500);  
         frame.setLayout(null);  
         frame.setVisible(true);
         
