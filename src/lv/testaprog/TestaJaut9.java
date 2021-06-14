@@ -65,13 +65,15 @@ public class TestaJaut9 {
             	}
             	
             	if(parAtb == 1) {
+            		Tests.atbRezultats(true, 8);
             		JOptionPane.showMessageDialog(null, "Tava atbilde ir pareiza!", "Uzmanību", JOptionPane.INFORMATION_MESSAGE);
             		Tests.atbPareizi();
                 	
-                	System.out.println("Pareizo atbilzu skaits ir "+Tests.getParAtbSk()+"!");
+                	System.out.println("9. Pareizo atbilzu skaits ir "+Tests.getParAtbSk()+"!");
             	} else {
+            		Tests.atbRezultats(false, 8);
             		JOptionPane.showMessageDialog(null, "Tava atbilde ir nepareiza!", "Uzmanību", JOptionPane.INFORMATION_MESSAGE);
-            		System.out.println("Pareizo atbilzu skaits ir "+Tests.getParAtbSk()+"!");
+            		System.out.println("9. Pareizo atbilzu skaits ir "+Tests.getParAtbSk()+"!");
             	}
             	
             	frame.dispose();

@@ -24,7 +24,7 @@ atbildēts nepareizi.
 - [ ] Tiek korekti izvadīti visi 10 jautājumi 
 - [x] Nodrošināts novērtējums par atbildes izvēli
 - [x] Nodrošināta pareizo atbilžu skaitīšana
-- [ ] Nodrošināta nepareizi atbildēto jautājumu izvade testa beigās
+- [x] Nodrošināta nepareizi atbildēto jautājumu izvade testa beigās
 ### Testēšanas dokumenta uzdevumi
 - [ ] Izveidots apraksts
 - [x] Izveidots prasību saraksts
