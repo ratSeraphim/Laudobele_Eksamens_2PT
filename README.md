@@ -15,14 +15,16 @@ atbildēts nepareizi.
 
 ## Pildāmo darbu saraksts
 ### Testa programmas uzdevumi
-- [ ] Izdomāti 10 jautājumi
-- [ ] Katram jautājumam izdomāti atbilžu varianti
+- [x] Izdomāti 10 jautājumi
+- [x] Katram jautājumam izdomāti atbilžu varianti
 - [x] Izvēlne (pildīt testu, beigt programmu, redzēt iepriekšējos rezultātus(?) )
 - [x] Programmas apturēšana
 - [x] Nodrošināti jautājumi, to uzrašanās uz ekrāna
 - [x] Nodrošinātas pareizās, nepareizās atbildes izvēles
+- [ ] Tiek korekti izvadīti visi 10 jautājumi 
 - [x] Nodrošināts novērtējums par atbildes izvēli
-- [ ] Nodrošināti rezultāti testa beigās
+- [x] Nodrošināta pareizo atbilžu skaitīšana
+- [ ] Nodrošināta nepareizi atbildēto jautājumu izvade testa beigās
 ### Testēšanas dokumenta uzdevumi
 - [ ] Izveidots apraksts
 - [x] Izveidots prasību saraksts

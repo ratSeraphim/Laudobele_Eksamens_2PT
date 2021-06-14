@@ -9,30 +9,28 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 
-public class TestaJaut2{
+public class TestaJaut4 {
 
 	double parAtb=0; 
 	boolean nepareiziAtbildets = true;
 	
-
-	TestaJaut2(){
-		
-		parAtb = 0;
-		JFrame frame= new JFrame("2. Jautājums");
+	TestaJaut4(){
+		parAtb=0;
+		JFrame frame= new JFrame("4. Jautājums");
 		
 		//Jautājums
 		JLabel jaut;  
-	    jaut=new JLabel("2. Atlasi tos variantus, kurus var izmantot cikla ar skaitītāja sākumam");  
-	    jaut.setBounds(10, 50, 500, 30);  
+	    jaut=new JLabel("4. Kuri no šiem cikliem nodrošinās pozitīvu soli?");  
+	    jaut.setBounds(10, 50, 350, 30);  
 	    
 	    //Atbildes
-		JCheckBox ch_1atb = new JCheckBox("int i = 0");
+		JCheckBox ch_1atb = new JCheckBox("for (int i=0; i < 10; i++)");
 		ch_1atb.setBounds(50, 100, 300, 50);
-		JCheckBox ch_2atb = new JCheckBox("int i = -3");
+		JCheckBox ch_2atb = new JCheckBox("for (int i=0; i < 10; i=i+3)");
 		ch_2atb.setBounds(50, 150, 300, 50);
-		JCheckBox ch_3atb = new JCheckBox("int i = 4.5");
+		JCheckBox ch_3atb = new JCheckBox("for (int i=0; i < 10; i--)");
 		ch_3atb.setBounds(50, 200, 300, 50);
-		JCheckBox ch_4atb = new JCheckBox("int i = k");
+		JCheckBox ch_4atb = new JCheckBox("for (int i=0; i < 10; i-=2)");
 		ch_4atb.setBounds(50, 250, 300, 50);
 		
 		//Poga
@@ -70,17 +68,12 @@ public class TestaJaut2{
             	
             	if(parAtb == 1) {
             		JOptionPane.showMessageDialog(null, "Tava atbilde ir pareiza!", "Uzmanību", JOptionPane.INFORMATION_MESSAGE);
-            		Tests.atbPareizi();
-                	
-                	System.out.println("Pareizo atbilzu skaits ir "+Tests.getParAtbSk()+"!");
             	} else {
             		JOptionPane.showMessageDialog(null, "Tava atbilde ir nepareiza!", "Uzmanību", JOptionPane.INFORMATION_MESSAGE);
-            		System.out.println("Pareizo atbilzu skaits ir "+Tests.getParAtbSk()+"!");
             	}
             	
             	frame.dispose();
-            	
-            	new TestaJaut3();
+            	new TestaJaut5();
             }
         });
         
