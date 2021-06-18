@@ -17,7 +17,7 @@ atbildēts nepareizi.
 ### Testa programmas uzdevumi
 - [x] Izdomāti 10 jautājumi
 - [x] Katram jautājumam izdomāti atbilžu varianti
-- [x] Izvēlne (pildīt testu, beigt programmu, redzēt iepriekšējos rezultātus(?) )
+- [x] Izvēlne (pildīt testu, beigt programmu)
 - [x] Programmas apturēšana
 - [x] Nodrošināti jautājumi, to uzrašanās uz ekrāna
 - [x] Nodrošinātas pareizās, nepareizās atbildes izvēles
